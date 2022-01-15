@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Comfortaa:wght@600&family=Maven+Pro:wght@700&family=Merriweather&family=Montserrat&family=Permanent+Marker&family=Sarabun:wght@300&family=Zilla+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Comfortaa:wght@600&family=Merriweather&family=Montserrat&family=Permanent+Marker&family=Sarabun:wght@300&family=Zilla+Slab:wght@500&display=swap');
+nav a{
+    text-decoration: none;
+    color:black;
+}
+body{
+    margin: 0;
+}
+.upperSection , .products{
+    margin:200px 200px 0 200px;
+}
+.heading{
+    display: flex;
+    width: 70%;
+}
+.head{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 70px;
+}
+.para{
+    font-size: 22px;
+    margin-bottom: 40px;
+    font-family: 'Comfortaa', cursive;
+}
+.button{
+    background-color: rgb(201, 0, 124);
+    padding: 20px 50px;
+    border-radius: 30px;
+    color: white;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    justify-items:center;
+    margin: 70px;
+}
+.grid-container img{
+    width: 120%;
+}
+.image img{
+    width: 300%;
+}
+.products{
+    justify-content:center;
+}
+.productName{
+    font-size: 32px;
+    font-family: 'Maven Pro', sans-serif;
+}
+.productPrice{
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Comfortaa', cursive;
+}
+.checked {
+    color: orange;
+  }
+
+.footer{
+    padding:20px 20px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+
+}
+.footerHead{
+    font-size: 30px;
+    color:white;
+}
+.footerpara{
+    font-size:15px;
+    color:white;
+}
+.foot{
+    color:white;
+    padding:10px;
+    margin:10px;
+    background-color:rgb(58, 57, 57);
+    border-radius: 25px;
+}
+.rate{
+    font-weight: bold;
+    font-size: 20px;
+    color:rgb(94, 91, 91);
+}
+
+.feature{
+    font-size: 15px;
+    font-family: 'Comfortaa', cursive;
+}
+.box{
+    margin-bottom: 30px;
+}
+
+
+@media (max-width:1280px) {
+    .grid-container{
+        display: grid;
+        grid-template-columns:repeat(2,1fr) ;
+        justify-items:center;
+        margin: 70px;
+    }
+    .grid-container img{
+        width: 100%;
+    }
+}
+@media (max-width:480px) {
+    .grid-container{
+        display: grid;
+        grid-template-columns:repeat(1,1fr) ;
+        justify-items:center;
+        margin: 70px;
+    }
+    .grid-container img{
+        width: 100%;
+    }
+    .heading{
+        flex-direction: column;
+    }
+}
