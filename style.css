@@ -9,8 +9,10 @@ body{
     margin: 0;
 }
 .header{
-    display:flex;
-    justify-content:space-between;
+    font-family: 'Zilla Slab', serif;
+    font-size:35px;
+    line-height:80px;
+    padding: 0 100px;
 }
 .upperSection , .products{
     margin:200px 200px 0 200px;
@@ -22,9 +24,6 @@ body{
 .head{
     font-family: 'Permanent Marker', cursive;
     font-size: 70px;
-}
-.mainHead{
-    font-family: 'Zilla Slab', serif;
 }
 .para{
     font-size: 22px;
