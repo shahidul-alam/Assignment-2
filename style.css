@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Comfortaa:wght@600&family=Maven+Pro:wght@700&family=Merriweather&family=Montserrat&family=Permanent+Marker&family=Sarabun:wght@300&family=Zilla+Slab:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Comfortaa:wght@600&family=Merriweather&family=Montserrat&family=Permanent+Marker&family=Sarabun:wght@300&family=Zilla+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Comfortaa:wght@600&family=Maven+Pro:wght@700&family=Merriweather&family=Montserrat&family=Permanent+Marker&family=Sarabun:wght@300&family=Zilla+Slab:wght@500&display=swap');
 nav a{
     text-decoration: none;
     color:black;
 }
 body{
     margin: 0;
+}
+.header{
+    display:flex;
+    justify-content:space-between;
 }
 .upperSection , .products{
     margin:200px 200px 0 200px;
@@ -17,6 +22,9 @@ body{
 .head{
     font-family: 'Permanent Marker', cursive;
     font-size: 70px;
+}
+.mainHead{
+    font-family: 'Zilla Slab', serif;
 }
 .para{
     font-size: 22px;
@@ -42,6 +50,10 @@ body{
 }
 .image img{
     width: 300%;
+    transition: transform .2s;
+}
+.image img:hover{
+    transform: scale(1.5);
 }
 .products{
     justify-content:center;
@@ -94,7 +106,12 @@ body{
 .box{
     margin-bottom: 30px;
 }
-
+.box img{
+    transition: transform .2s;
+}
+.box img:hover{
+    transform: scale(1.1);
+}
 
 @media (max-width:1280px) {
     .grid-container{
